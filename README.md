@@ -1,6 +1,9 @@
 # NFC
 This is a repository of MATLAB codes accompanying the paper:
-Ignacio Cifre, Maria T. Miller Flores, Jeremi K. Ochab, Dante R. Chialvo, "Revisiting non-linear functional brain co-activations: directed, dynamic and delayed", 2019, arXiv: https://arxiv.org/abs/2007.15728
+- Cifre I, Miller Flores MT, Penalba L, Ochab JK and Chialvo DR (2021) Revisiting Nonlinear Functional Brain Co-activations: Directed, Dynamic, and Delayed. Front. Neurosci. 15:700171. doi: 10.3389/fnins.2021.700171
+
+See also how this meethod can be adapted to experiments in the task paradigm (not just resting-state):
+- Ceglarek A, Ochab JK, Cifre I, Fafrowicz M, Sikora-Wachowicz B, Lewandowska K, Bohaterewicz B, Marek T and Chialvo DR (2021) Non-linear Functional Brain Co-activations in Short-Term Memory Distortion Tasks. Front. Neurosci. 15:778242. doi: 10.3389/fnins.2021.778242
 
 Corresponding author: dchialvo@unsam.edu.ar (see also: http://www.chialvo.net)
 
