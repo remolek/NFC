@@ -3,10 +3,10 @@ function [events, events_seed, times_seed] = rbeta(matarr,seed, thr, past, futur
 % seed:     a mean seed ROI BOLD signal, sized: 1 x T
 % matarr:   array with all voxel signals, sized: (number of voxels) x T
 % % OUTPUT
-% events_seed:  an array of seed events, sized:
+% events_seed:  an array of seed events (from STANDARDISED seeds), sized:
 %               (number of seed events) x (past+future+1)
 % events:       cell array, sized: number of voxels 
-%               each events{voxel} contains array of target events, sized:
+%               each events{voxel} contains array of target events (from NON-STANDARDISED matarr), sized:
 %               (number of seed events) x (past+future+1)
 
 seed = zscore(seed);
